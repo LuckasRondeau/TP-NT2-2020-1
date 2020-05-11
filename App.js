@@ -1,14 +1,18 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text ,Image, View } from 'react-native';
+import {vibrate} from './utils'
+//import './style.css';
+//import Hello from "./Hello";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Bienvenidos NT2!</Text>
-      <Text>Proyecto a realizar: Cronometro Pomodoro.</Text>
-    </View>
+      <Text>TIMER POMODORO</Text>
+      <Text>00:00</Text>
+         </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
